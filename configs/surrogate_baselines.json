@@ -1,0 +1,40 @@
+{
+  "run_name": "rttp_cifar_surrogate_baselines",
+  "root_name": "results/surrogate_baselines",
+  "dataset": "split_cifar10",
+  "architecture": "smallcnn",
+  "seeds": [
+    0
+  ],
+  "horizon": 40,
+  "learning_rate": 0.03,
+  "momentum": 0.9,
+  "radius_scale": 0.001,
+  "response_rank": 16,
+  "candidate_count": 32,
+  "periodic_refresh_periods": [
+    2,
+    5,
+    10
+  ],
+  "low_rank_response_ranks": [
+    2,
+    4,
+    8
+  ],
+  "truncated_tail_lengths": [
+    5,
+    10,
+    20
+  ],
+  "cifar_train_per_class": 1000,
+  "cifar_test_per_class": 250,
+  "batch_size": 128,
+  "boundary_epochs_smallcnn_cifar": 12,
+  "boundary_epochs_resnet18_cifar": 20,
+  "num_workers": 2,
+  "force_boundary": false,
+  "drive_base": ".",
+  "use_google_drive": false,
+  "dtype": "float32"
+}

@@ -1,0 +1,12 @@
+section,check,passed,blocking,relative_error,cosine,detail,epsilon
+hvp,dense_vs_direct_hvp,True,True,1.5090477849856488e-16,1.0,dense Hessian times vector equals autograd HVP,
+sgd,one_step_manual_vs_centered_fd,True,False,2.0777329515466026e-08,0.9999999999999998,SGD one-step tangent finite-difference convergence point,0.01
+sgd,one_step_manual_vs_centered_fd,True,False,2.0776307238710063e-10,0.9999999999999998,SGD one-step tangent finite-difference convergence point,0.001
+sgd,one_step_manual_vs_centered_fd,True,False,1.5575128099205918e-11,1.0,SGD one-step tangent finite-difference convergence point,0.0001
+sgd,one_step_manual_vs_centered_fd,True,False,1.6812577193301079e-10,0.9999999999999998,SGD one-step tangent finite-difference convergence point,1e-05
+sgd,one_step_manual_vs_centered_fd,True,False,1.9698426105358085e-09,0.9999999999999998,SGD one-step tangent finite-difference convergence point,1e-06
+sgd,one_step_best_error,True,True,1.5575128099205918e-11,,best SGD one-step finite-difference error across eps sweep,
+sgd,multistep_momentum_response_H5,True,True,1.2643416660434197e-10,0.9999999999999998,H=5 chronological tangent response matches centered finite difference,
+adam,one_step_m_manual_vs_centered_fd,True,True,1.0880841138098506e-10,1.0000000000000002,Adam full-coupled one-step tangent matches centered finite difference,
+adam,one_step_rms_global_manual_vs_centered_fd,True,True,6.867771077211378e-09,1.0000000000000002,Adam full-coupled one-step tangent matches centered finite difference,
+adam,rms_perturbations_nonnegative,True,True,,,v0 exp(2 alpha q) preserves nonnegative second moment,

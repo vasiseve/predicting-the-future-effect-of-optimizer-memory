@@ -1,0 +1,3 @@
+dataset,optimizer,architecture,memory_component,response_model,horizon,nonfinite_rows
+split_cifar10,heavy_ball,resnet18,momentum,frozen_boundary,40,140
+split_tinyimagenet,heavy_ball,resnet18,momentum,frozen_boundary,40,280

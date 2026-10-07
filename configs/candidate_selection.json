@@ -1,0 +1,36 @@
+{
+  "run_name": "rttp_cifar_candidate_selection",
+  "root_name": "results/candidate_selection",
+  "dataset": "split_cifar10",
+  "architecture": "smallcnn",
+  "seeds": [
+    0
+  ],
+  "horizon": 40,
+  "learning_rate": 0.03,
+  "momentum": 0.9,
+  "radius_scale": 0.001,
+  "response_rank": 16,
+  "candidate_count": 100,
+  "objective_tradeoffs": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "topk_values": [
+    5,
+    10
+  ],
+  "cifar_train_per_class": 1000,
+  "cifar_test_per_class": 250,
+  "eval_batches_per_task": 0,
+  "batch_size": 128,
+  "boundary_epochs_smallcnn_cifar": 12,
+  "boundary_epochs_resnet18_cifar": 20,
+  "num_workers": 2,
+  "force_boundary": false,
+  "drive_base": ".",
+  "use_google_drive": false,
+  "dtype": "float32"
+}

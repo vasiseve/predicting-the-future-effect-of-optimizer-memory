@@ -1,0 +1,11 @@
+check,passed,blocking,detail
+one_step_audit_finite,False,True,"{'count': 25.0, 'mean': 0.29699724119261306, 'std': 0.5887087764665477, 'min': 3.849652614462684e-07, '25%': 1.258023166883504e-05, '50%': 0.0003631443250924349, '75%': 0.3541735112667084, 'max': 2.4787299633026123}"
+response_raw_finite,False,True,"{'optimizer': 0, 'architecture': 0, 'seed': 0, 'direction': 0, 'learning_rate': 0, 'beta1': 0, 'beta2': 0, 'adam_eps': 0, 'memory_component': 0, 'tangent_model': 0, 'state_parameterization': 0, 'nominal_memory': 0, 'step_offset': 0, 'horizon': 0, 'radius_scale': 0, 'radius_base': 0, 'coordinate_norm': 0, 'tangent_norm': 0, 'true_endpoint_norm': 0, 'centered_fd_norm': 0, 'endpoint_error': 81, 'endpoint_cosine': 81, 'centered_error': 80, 'centered_cosine': 80, 'v_plus_nonnegative': 0, 'v_minus_nonnegative': 0}"
+v_perturbations_nonnegative,True,True,all plus/minus v states nonnegative
+local_centered_error_lr=0.0003_mem=joint_H20,True,False,best centered error at H=20 is 0.0746
+local_centered_error_lr=0.0003_mem=log_v_H20,False,False,best centered error at H=20 is 1
+local_centered_error_lr=0.0003_mem=m_H20,True,False,best centered error at H=20 is 0.0753
+local_centered_error_lr=0.001_mem=joint_H20,False,False,best centered error at H=20 is 0.254
+local_centered_error_lr=0.001_mem=log_v_H20,False,False,best centered error at H=20 is 1
+local_centered_error_lr=0.001_mem=m_H20,False,False,best centered error at H=20 is 0.252
+full_vs_restricted_m_difference_observed,True,False,mean abs centered-error gap is 0.0496

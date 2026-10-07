@@ -1,0 +1,3 @@
+check,passed,blocking,detail
+preflight_numerical_audit,True,True,all blocking numerical audit checks passed
+optimizer_equations_documented,True,False,audit_optimizer_equations.csv written

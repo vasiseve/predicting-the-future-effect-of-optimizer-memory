@@ -1,0 +1,19 @@
+check,passed,blocking,detail
+response_raw_present,True,True,rows=24
+finite_time_varying_metrics,True,True,time-varying endpoint_error and centered_error finite
+finite_frozen_baseline_metrics,True,False,"nonfinite frozen rows=0; divergence is diagnostic, not blocking for RTTP"
+adam_v_nonnegative,True,True,all Adam plus/minus v states nonnegative
+block_present_split_cifar10_heavy_ball,True,True,rows=8
+arch_present_split_cifar10_heavy_ball_smallcnn,True,True,rows=8
+horizons_complete_split_cifar10_heavy_ball_smallcnn,True,True,"expected=[1, 3], observed=[1, 3]"
+seeds_complete_split_cifar10_heavy_ball_smallcnn,True,True,"expected=[0], observed=[0]"
+memory_components_complete_split_cifar10_heavy_ball_smallcnn,True,True,"expected=['momentum'], observed=['momentum']"
+response_models_complete_split_cifar10_heavy_ball_smallcnn,True,True,"expected=['frozen_boundary', 'time_varying'], observed=['frozen_boundary', 'time_varying']"
+block_present_split_cifar10_adam,True,True,rows=16
+arch_present_split_cifar10_adam_smallcnn,True,True,rows=16
+horizons_complete_split_cifar10_adam_smallcnn,True,True,"expected=[1, 3], observed=[1, 3]"
+seeds_complete_split_cifar10_adam_smallcnn,True,True,"expected=[0], observed=[0]"
+memory_components_complete_split_cifar10_adam_smallcnn,True,True,"expected=['m', 'rms_global'], observed=['m', 'rms_global']"
+response_models_complete_split_cifar10_adam_smallcnn,True,True,"expected=['frozen_boundary', 'time_varying'], observed=['frozen_boundary', 'time_varying']"
+preflight_audit_passed,True,True,"[{'check': 'preflight_numerical_audit', 'passed': True, 'blocking': True, 'detail': 'all blocking numerical audit checks passed'}, {'check': 'optimizer_equations_documented', 'passed': True, 'blocking': False, 'detail': 'audit_optimizer_equations.csv written'}]"
+dataset_probe_passed,True,True,"[{'dataset': 'split_cifar10', 'dataset_id': 'uoft-cs/cifar10', 'passed': True, 'blocking': True, 'splits': 'train;test', 'train_rows': 50000, 'image_key': 'img', 'label_key': 'label', 'task_a_classes': '0;1;2;3;4', 'task_b_classes': '5;6;7;8;9', 'n_task_a': 5, 'n_task_b': 5, 'detail': 'dataset schema probe'}]"

@@ -1,0 +1,5 @@
+claim,status,evidence,paper_use
+Adam first-moment response,supported if compact table shows low centered error and high cosine,full coupled m tangent; restricted-no-dv diagnostic retained separately,supporting evidence for general optimizer-state response
+Adam RMS global response,supported if finite differences agree across the local alpha sweep,"global multiplicative RMS coordinate q=1, v0(alpha)=v0 exp(2 alpha)",supporting evidence for natural second-moment intervention
+Adam RMS layerwise response,"supported direction-wise, not as a dense full log-v spectrum",one multiplicative RMS coordinate per parameter tensor,supporting evidence for interpretable reduced second-moment subspaces
+Dense log-v unit-vector response,not claimed here,previous audit found the derivative correct but low-gain/FD-limited,diagnostic only

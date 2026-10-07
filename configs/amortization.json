@@ -1,0 +1,31 @@
+{
+  "run_name": "rttp_amortization_cifar",
+  "root_name": "results/amortization",
+  "dataset": "split_cifar10",
+  "architecture": "smallcnn",
+  "seed": 0,
+  "horizon": 40,
+  "learning_rate": 0.03,
+  "momentum": 0.9,
+  "radius_scale": 0.001,
+  "response_rank": 8,
+  "candidate_counts": [
+    5,
+    10,
+    20,
+    50,
+    100
+  ],
+  "repeats": 3,
+  "warmup": 1,
+  "cifar_train_per_class": 1000,
+  "cifar_test_per_class": 250,
+  "batch_size": 128,
+  "boundary_epochs_smallcnn_cifar": 12,
+  "boundary_epochs_resnet18_cifar": 20,
+  "num_workers": 2,
+  "force_boundary": false,
+  "drive_base": ".",
+  "use_google_drive": false,
+  "dtype": "float32"
+}

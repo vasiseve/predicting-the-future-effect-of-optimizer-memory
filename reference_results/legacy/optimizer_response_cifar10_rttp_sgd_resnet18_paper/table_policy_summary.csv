@@ -1,0 +1,5 @@
+optimizer,architecture,policy,delta_forgetting,delta_progress,A_acc,B_acc
+heavy_ball,resnet18,inherit,0.022779566650390583,-0.00012341308593750712,0.17456,0.51376
+heavy_ball,resnet18,random_matched_norm,0.0038073303222655674,-0.0009922320556640773,0.17688,0.51464
+heavy_ball,resnet18,reset,0.0,0.0,0.17624,0.5140800000000001
+heavy_ball,resnet18,tangent_certificate,-0.01599542724609382,-0.002235029296875002,0.17616,0.51264

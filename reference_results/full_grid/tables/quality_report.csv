@@ -1,0 +1,50 @@
+check,passed,blocking,detail
+response_raw_present,True,True,rows=57120
+finite_key_metrics,False,True,endpoint_error and centered_error finite
+adam_v_nonnegative,True,True,all Adam plus/minus v states nonnegative
+block_present_split_cifar10_heavy_ball,True,True,rows=11200
+arch_present_split_cifar10_heavy_ball_smallcnn,True,True,rows=5600
+horizons_complete_split_cifar10_heavy_ball_smallcnn,True,True,"expected=[1, 5, 10, 20, 40], observed=[1, 5, 10, 20, 40]"
+seeds_complete_split_cifar10_heavy_ball_smallcnn,True,True,"expected=[0, 1, 2, 3, 4], observed=[0, 1, 2, 3, 4]"
+memory_components_complete_split_cifar10_heavy_ball_smallcnn,True,True,"expected=['momentum'], observed=['momentum']"
+response_models_complete_split_cifar10_heavy_ball_smallcnn,True,True,"expected=['frozen_boundary', 'time_varying'], observed=['frozen_boundary', 'time_varying']"
+arch_present_split_cifar10_heavy_ball_resnet18,True,True,rows=5600
+horizons_complete_split_cifar10_heavy_ball_resnet18,True,True,"expected=[1, 5, 10, 20, 40], observed=[1, 5, 10, 20, 40]"
+seeds_complete_split_cifar10_heavy_ball_resnet18,True,True,"expected=[0, 1, 2, 3, 4], observed=[0, 1, 2, 3, 4]"
+memory_components_complete_split_cifar10_heavy_ball_resnet18,True,True,"expected=['momentum'], observed=['momentum']"
+response_models_complete_split_cifar10_heavy_ball_resnet18,True,True,"expected=['frozen_boundary', 'time_varying'], observed=['frozen_boundary', 'time_varying']"
+block_present_split_cifar10_adam,True,True,rows=17360
+arch_present_split_cifar10_adam_smallcnn,True,True,rows=9680
+horizons_complete_split_cifar10_adam_smallcnn,True,True,"expected=[1, 5, 10, 20], observed=[1, 5, 10, 20]"
+seeds_complete_split_cifar10_adam_smallcnn,True,True,"expected=[0, 1, 2, 3, 4], observed=[0, 1, 2, 3, 4]"
+memory_components_complete_split_cifar10_adam_smallcnn,True,True,"expected=['m', 'rms_global', 'rms_layerwise', 'rms_random_layerwise'], observed=['m', 'rms_global', 'rms_layerwise', 'rms_random_layerwise']"
+response_models_complete_split_cifar10_adam_smallcnn,True,True,"expected=['frozen_boundary', 'time_varying'], observed=['frozen_boundary', 'time_varying']"
+arch_present_split_cifar10_adam_resnet18,True,True,rows=7680
+horizons_complete_split_cifar10_adam_resnet18,True,True,"expected=[1, 5, 10, 20], observed=[1, 5, 10, 20]"
+seeds_complete_split_cifar10_adam_resnet18,True,True,"expected=[0, 1, 2, 3, 4], observed=[0, 1, 2, 3, 4]"
+memory_components_complete_split_cifar10_adam_resnet18,True,True,"expected=['m', 'rms_global', 'rms_layerwise', 'rms_random_layerwise'], observed=['m', 'rms_global', 'rms_layerwise', 'rms_random_layerwise']"
+response_models_complete_split_cifar10_adam_resnet18,True,True,"expected=['frozen_boundary', 'time_varying'], observed=['frozen_boundary', 'time_varying']"
+block_present_split_tinyimagenet_heavy_ball,True,True,rows=11200
+arch_present_split_tinyimagenet_heavy_ball_smallcnn,True,True,rows=5600
+horizons_complete_split_tinyimagenet_heavy_ball_smallcnn,True,True,"expected=[1, 5, 10, 20, 40], observed=[1, 5, 10, 20, 40]"
+seeds_complete_split_tinyimagenet_heavy_ball_smallcnn,True,True,"expected=[0, 1, 2, 3, 4], observed=[0, 1, 2, 3, 4]"
+memory_components_complete_split_tinyimagenet_heavy_ball_smallcnn,True,True,"expected=['momentum'], observed=['momentum']"
+response_models_complete_split_tinyimagenet_heavy_ball_smallcnn,True,True,"expected=['frozen_boundary', 'time_varying'], observed=['frozen_boundary', 'time_varying']"
+arch_present_split_tinyimagenet_heavy_ball_resnet18,True,True,rows=5600
+horizons_complete_split_tinyimagenet_heavy_ball_resnet18,True,True,"expected=[1, 5, 10, 20, 40], observed=[1, 5, 10, 20, 40]"
+seeds_complete_split_tinyimagenet_heavy_ball_resnet18,True,True,"expected=[0, 1, 2, 3, 4], observed=[0, 1, 2, 3, 4]"
+memory_components_complete_split_tinyimagenet_heavy_ball_resnet18,True,True,"expected=['momentum'], observed=['momentum']"
+response_models_complete_split_tinyimagenet_heavy_ball_resnet18,True,True,"expected=['frozen_boundary', 'time_varying'], observed=['frozen_boundary', 'time_varying']"
+block_present_split_tinyimagenet_adam,True,True,rows=17360
+arch_present_split_tinyimagenet_adam_smallcnn,True,True,rows=9680
+horizons_complete_split_tinyimagenet_adam_smallcnn,True,True,"expected=[1, 5, 10, 20], observed=[1, 5, 10, 20]"
+seeds_complete_split_tinyimagenet_adam_smallcnn,True,True,"expected=[0, 1, 2, 3, 4], observed=[0, 1, 2, 3, 4]"
+memory_components_complete_split_tinyimagenet_adam_smallcnn,True,True,"expected=['m', 'rms_global', 'rms_layerwise', 'rms_random_layerwise'], observed=['m', 'rms_global', 'rms_layerwise', 'rms_random_layerwise']"
+response_models_complete_split_tinyimagenet_adam_smallcnn,True,True,"expected=['frozen_boundary', 'time_varying'], observed=['frozen_boundary', 'time_varying']"
+arch_present_split_tinyimagenet_adam_resnet18,True,True,rows=7680
+horizons_complete_split_tinyimagenet_adam_resnet18,True,True,"expected=[1, 5, 10, 20], observed=[1, 5, 10, 20]"
+seeds_complete_split_tinyimagenet_adam_resnet18,True,True,"expected=[0, 1, 2, 3, 4], observed=[0, 1, 2, 3, 4]"
+memory_components_complete_split_tinyimagenet_adam_resnet18,True,True,"expected=['m', 'rms_global', 'rms_layerwise', 'rms_random_layerwise'], observed=['m', 'rms_global', 'rms_layerwise', 'rms_random_layerwise']"
+response_models_complete_split_tinyimagenet_adam_resnet18,True,True,"expected=['frozen_boundary', 'time_varying'], observed=['frozen_boundary', 'time_varying']"
+preflight_audit_passed,True,True,"[{'check': 'preflight_numerical_audit', 'passed': True, 'blocking': True, 'detail': 'all blocking numerical audit checks passed'}, {'check': 'optimizer_equations_documented', 'passed': True, 'blocking': False, 'detail': 'audit_optimizer_equations.csv written'}]"
+dataset_probe_passed,True,True,"[{'dataset': 'split_cifar10', 'dataset_id': 'uoft-cs/cifar10', 'passed': True, 'blocking': True, 'splits': 'train;test', 'train_rows': 50000, 'image_key': 'img', 'label_key': 'label', 'task_a_classes': '0;1;2;3;4', 'task_b_classes': '5;6;7;8;9', 'n_task_a': 5, 'n_task_b': 5, 'detail': 'dataset schema probe'}, {'dataset': 'split_tinyimagenet', 'dataset_id': 'zh-plus/tiny-imagenet', 'passed': True, 'blocking': True, 'splits': 'train;valid', 'train_rows': 100000, 'image_key': 'image', 'label_key': 'label', 'task_a_classes': '0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35;36;37;38;39;40;41;42;43;44;45;46;47;48;49;50;51;52;53;54;55;56;57;58;59;60;61;62;63;64;65;66;67;68;69;70;71;72;73;74;75;76;77;78;79;80;81;82;83;84;85;86;87;88;89;90;91;92;93;94;95;96;97;98;99', 'task_b_classes': '100;101;102;103;104;105;106;107;108;109;110;111;112;113;114;115;116;117;118;119;120;121;122;123;124;125;126;127;128;129;130;131;132;133;134;135;136;137;138;139;140;141;142;143;144;145;146;147;148;149;150;151;152;153;154;155;156;157;158;159;160;161;162;163;164;165;166;167;168;169;170;171;172;173;174;175;176;177;178;179;180;181;182;183;184;185;186;187;188;189;190;191;192;193;194;195;196;197;198;199', 'n_task_a': 100, 'n_task_b': 100, 'detail': 'dataset schema probe'}]"

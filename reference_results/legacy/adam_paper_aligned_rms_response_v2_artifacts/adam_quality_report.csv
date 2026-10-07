@@ -1,0 +1,15 @@
+check,passed,blocking,detail
+one_step_audit_finite,True,True,"{'count': 24.0, 'mean': 0.0029257741387474687, 'std': 0.005726462246237216, 'min': 7.496754506064462e-08, '25%': 7.108432271252241e-06, '50%': 0.0005569033965002745, '75%': 0.0020610906067304313, 'max': 0.023858841508626938}"
+response_raw_finite,True,True,"{'optimizer': 0, 'architecture': 0, 'seed': 0, 'direction': 0, 'direction_label': 0, 'learning_rate': 0, 'beta1': 0, 'beta2': 0, 'adam_eps': 0, 'memory_component': 0, 'tangent_model': 0, 'state_parameterization': 0, 'nominal_memory': 0, 'step_offset': 0, 'horizon': 0, 'radius_scale': 0, 'radius_base': 0, 'coordinate_norm': 0, 'alpha': 720, 'rms_change_fraction': 920, 'max_abs_log_rms_change': 720, 'rms_log_change_l2_layer_space': 1370, 'rms_direction_nonzero': 0, 'tangent_norm': 0, 'true_endpoint_norm': 0, 'centered_fd_norm': 0, 'endpoint_error': 0, 'endpoint_cosine': 0, 'centered_error': 0, 'centered_cosine': 0, 'v_plus_nonnegative': 0, 'v_minus_nonnegative': 0}"
+v_perturbations_nonnegative,True,True,all plus/minus v states nonnegative
+paper_table_created,True,False,"compact rows=4 at lr=0.0003, H=20"
+horizon_failure_diagnostic_created,True,False,diagnostic rows=80; run_horizon_diagnostic=True
+paper_horizon_local_agreement_lr=0.0003_mem=m,True,False,"best centered error=0.201, cosine=0.978 at H=20"
+paper_horizon_local_agreement_lr=0.0003_mem=rms_global,False,False,"best centered error=0.884, cosine=0.521 at H=20"
+paper_horizon_local_agreement_lr=0.0003_mem=rms_layerwise,False,False,"best centered error=0.906, cosine=0.338 at H=20"
+paper_horizon_local_agreement_lr=0.0003_mem=rms_random_layerwise,False,False,"best centered error=0.835, cosine=0.533 at H=20"
+paper_horizon_local_agreement_lr=0.001_mem=m,False,False,"best centered error=0.69, cosine=0.806 at H=20"
+paper_horizon_local_agreement_lr=0.001_mem=rms_global,False,False,"best centered error=0.993, cosine=0.126 at H=20"
+paper_horizon_local_agreement_lr=0.001_mem=rms_layerwise,False,False,"best centered error=0.991, cosine=0.0961 at H=20"
+paper_horizon_local_agreement_lr=0.001_mem=rms_random_layerwise,False,False,"best centered error=0.984, cosine=0.168 at H=20"
+full_vs_restricted_m_difference_reported,True,False,mean abs centered-error gap is 0.426; table retained for interpretation

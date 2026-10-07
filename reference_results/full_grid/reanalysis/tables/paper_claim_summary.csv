@@ -1,0 +1,5 @@
+claim,evidence,table
+SGD scales across datasets and architectures,All four SGD blocks validate through H=40 with endpoint error < 0.04 and cosine > 0.999.,sgd_h40_main_table.csv
+Chronological tangent propagation matters,"At H=20, frozen endpoint errors are consistently larger; at H=40, ResNet-18 frozen SGD diverges/overflows.",frozen_h20_main_table.csv; sgd_frozen_h40_diagnostic.csv
+Adam supports the state-space response principle,Adam m is strong on SmallCNN and meaningful on ResNet-18; RMS channels show component-dependent local regimes.,adam_h20_component_table.csv; adam_validated_horizons.csv
+Adam RMS response is heterogeneous,ResNet-18 later blocks validate better than stem/BN directions.,adam_rms_layerwise_resnet_h20.csv

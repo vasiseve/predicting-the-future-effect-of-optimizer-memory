@@ -1,0 +1,28 @@
+{
+  "python": "3.12.14",
+  "platform": "Darwin",
+  "device": "cpu",
+  "dependencies": {
+    "torch": "2.11.0",
+    "torchvision": "0.26.0",
+    "datasets": "4.0.0",
+    "numpy": "2.0.2",
+    "pandas": "2.2.2",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.0",
+    "tqdm": "4.67.3",
+    "pillow": "11.3.0"
+  },
+  "numerical_preflight": "passed",
+  "unit_tests": "passed",
+  "scope": "CPU numerical and offline end-to-end validation plus a small CIFAR-10 real-data run. Full-grid training and GPU timing were not rerun.",
+  "real_data_smoke": "passed",
+  "real_data_smoke_dataset": "CIFAR-10",
+  "real_data_smoke_components": [
+    "SGD momentum",
+    "Adam m",
+    "Adam RMS-global"
+  ],
+  "synthetic_pipeline_tests": "all four experiment runners passed",
+  "reference_regeneration": "three regeneration scripts passed"
+}

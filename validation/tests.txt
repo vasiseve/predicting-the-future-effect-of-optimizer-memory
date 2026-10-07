@@ -1,0 +1,11 @@
+test_auxiliary_experiment_pipelines (test_code.OfflinePipelines.test_auxiliary_experiment_pipelines) ... passed
+test_grid_training_response_summary_and_resume (test_code.OfflinePipelines.test_grid_training_response_summary_and_resume) ... passed
+test_all_configs_construct (test_code.Packaging.test_all_configs_construct) ... passed
+test_anonymous_notebook_metadata_and_compilation (test_code.Packaging.test_anonymous_notebook_metadata_and_compilation) ... passed
+test_archived_table1_values_match_manuscript (test_code.Packaging.test_archived_table1_values_match_manuscript) ... passed
+test_cached_scientific_setting_changes_rejected (test_code.Packaging.test_cached_scientific_setting_changes_rejected) ... passed
+test_summary_uses_requested_root (test_code.Packaging.test_summary_uses_requested_root) ... passed
+test_adam_production_three_step_memory_channels (test_code.ProductionTangents.test_adam_production_three_step_memory_channels) ... passed
+test_sgd_production_three_step_tangent (test_code.ProductionTangents.test_sgd_production_three_step_tangent) ... passed
+Ran 9 tests in 16.182s
+OK
